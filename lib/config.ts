@@ -47,11 +47,11 @@ export const environment = process.env.NODE_ENV || 'development'
 export const isDev = environment === 'development'
 
 // general site config
-export const name: string = 'zhengzhuang'
-export const author: string = 'zheng zhuang'
-export const domain: string = getSiteConfig('domain')
-export const description: string = 'Example zhengzhuang Site'
-export const language: string = getSiteConfig('language', 'en')
+export const name = 'zhengzhuang'
+export const author = 'zheng zhuang'
+export const domain = ''
+export const description = 'Example zhengzhuang Site'
+export const language = 'zh-CN'
 
 // social accounts
 export const twitter: string | null = ''
