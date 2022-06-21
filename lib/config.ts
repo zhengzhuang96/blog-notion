@@ -17,7 +17,7 @@ import {
 } from './types'
 
 export const rootNotionPageId: string = parsePageId(
-  getSiteConfig('rootNotionPageId'),
+  '75f81ced6cc4497289bae059b6fe53f1',
   { uuid: false }
 )
 
